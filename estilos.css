@@ -107,6 +107,8 @@ header h1{
     text-align:center;
     padding: 5px;
 }
+
+/* pagina discografia */
 .tabla{
     margin: 150px auto;
     width: 600px;
@@ -124,6 +126,7 @@ thead {
     background-color:blueviolet;
     color: aliceblue;
 }
+/* pagina integrantes */
 #plantilla {
     display: grid;
     grid-template-areas:
@@ -297,11 +300,17 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:aliceblue;
 }
-/*body{
-    background-image: radial-gradient(circle, white, rgb(248, 10, 184));
+.historia{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    background-image: radial-gradient(circle, white, blueviolet);
     background-attachment: fixed;
-}*/
+    text-align: center;
+    
+}
 
+/*animacion titulo */
 .animacion:hover{
     background-color: rgb(232, 19, 251);
 }
@@ -481,7 +490,7 @@ footer{
     color:aliceblue;
 }
 }
-
+/* vista desktop */
 @media screen and (max-width:1024px) {
     .grid__template {
         display:grid;
